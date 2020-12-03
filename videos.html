@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera pagina en HTML 5</title>
+    <meta name="description" content="Mi primera pagina en HTML 5">
+    <meta name="author" content="Emilio Cruz Mendiola">
+    <meta name="keywords" content="HTML,CSS">
+    <link rel="stylesheet" href="estiloPrincipal.css">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="slider.css">
+  </head>
+  <body>
+    <div class="contenedor">
+
+      <header>
+        <img class="logo-left" src="imagenes/iconos/cantante.svg" alt="Logotipo1">
+        <img class="logo-right" src="imagenes/iconos/musica.svg" alt="Logotipo2">
+        <h1>BIG TIME RUSH</h1>
+        <div class="slider">
+          <ul>
+            <li><img src="artista/galeria/glr1.jpg" alt="Big Time Rush"></li>
+            <li><img src="artista/galeria/glr2.jpg" alt="Big Time Rush"></li>
+            <li><img src="artista/galeria/glr3.jpg" alt="Big Time Rush"></li>
+            <li><img src="artista/galeria/glr4.jpg" alt="Big Time Rush"></li>
+            <li><img src="artista/galeria/glr5.jpg" alt="Big Time Rush"></li>
+          </ul>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" class="boton redondo"><img src="imagenes/iconos/home.svg" alt="Inicio">Inicio</a></li>
+          <li><a href="biografia.html" class="boton redondo"><img src="imagenes/iconos/bio.svg" alt="Biografia">Biografia</a></li>
+          <li><a href="discografia.html" class="boton redondo"><img src="imagenes/iconos/disco.svg" alt="Discografia">Discografia</a></li>
+          <li><a href="Videos.html#vd_1" class="boton redondo"><img src="imagenes/iconos/video2.svg" alt="Videos">Videos</a></li>
+          <li><a href="galeria.html" class="boton redondo"><img src="imagenes/iconos/foto.svg" alt="Galeria">Galeria</a></li>
+          <li><a href="noticias.html" class="boton redondo"><img src="imagenes/iconos/nota.svg" alt="Noticias">Noticias</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+          <div class="videoContent" id="vd_1">
+            <center><h2 class="tit_cancion">1. Til I Forget About You</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_1.jpg">
+              <source src="artista/videos/BTR_1_Til I Forget About You.mp4" type="video/mp4">
+              <img src="artista/canciones/BTR_1.jpg" alt="Video no soportado">
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_despues" href="#vd_2">Video siguiente</a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_2">
+            <center><h2 class="tit_cancion">2. Boyfriend ft.snoop dog</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_2.jpg">
+              <source src="artista/videos/BTR_2_Boyfriend.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_2.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_1"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_3">Video siguiente</a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_3">
+            <center><h2 class="tit_cancion"> 3. City Is Ours</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_3.jpg">
+              <source src="artista/videos/BTR_3_City Is Ours.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_3.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_2"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_4">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_4">
+            <center><h2 class="tit_cancion"> 4. Nothing Even Matters</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_4.jpg">
+              <source src="artista/videos/BTR_4_Nothing Even Matters.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_4.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_3"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_5">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_5">
+            <center><h2 class="tit_cancion"> 5. Worldwide</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_5.jpg">
+              <source src="artista/videos/BTR_5_Worldwide.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_5.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_4"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_6">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_6">
+            <center><h2 class="tit_cancion"> 6. Halfway There</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_6.jpg">
+              <source src="artista/videos/BTR_6_Halfway There.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_6.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_5"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_7">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_7">
+            <center><h2 class="tit_cancion"> 7. Big Night</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_7.jpg">
+              <source src="artista/videos/BTR_7_Big Night.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_7.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_6"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_8">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_8">
+            <center><h2 class="tit_cancion"> 8.  Oh Yeah</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_8.jpg">
+              <source src="artista/videos/BTR_8_Oh Yeah.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_8.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_7"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_9">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_9">
+            <center><h2 class="tit_cancion"> 9. Count On You ft. Jordan Spark</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_9.jpg">
+              <source src="artista/videos/BTR_9_Count On You.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_9.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_8"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_10">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_10">
+            <center><h2 class="tit_cancion"> 10. I Know You Know ft. Cymphonique Miller</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_10.jpg">
+              <source src="artista/videos/BTR_10_I Know You Know.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_10.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_9"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_11">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_11">
+            <center><h2 class="tit_cancion"> 11. Big Time Rush Theme</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_11.jpg">
+              <source src="artista/videos/BTR_11_Big Time Rush Theme.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_11.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_10"> Video anterior</a>
+              <a class="video_btn_despues" href="#vd_12">Video siguiente </a>
+            </center>
+          </div>
+          <div class="videoContent" id="vd_12">
+            <center><h2 class="tit_cancion"> 12. EXTRA: Any Kind of Guy</h2></center>
+            <video style="display: block; margin: 10px auto;" width="640" height="400" controls poster="artista/canciones/BTR_12.jpg">
+              <source src="artista/videos/BTR_12_Any Kind of Guy.mp4" type="video/mp4" />
+              <img src="artista/canciones/BTR_12.jpg" alt="Video no soportado" />
+              Su navegador no soporta contenido multimedia.
+            </video>
+            <center>
+              <a class="video_btn_antes" href="#vd_11"> Video anterior</a>
+            </center>
+          </div>
+        </article>
+      </section>
+      <aside class="">
+        <blockquote>
+          <h3 align="center">Videos</h3>
+          <a href="#vd_1" class="videoMenu"><img src="artista/videos/BTR_1_mini.jpg" alt=""></a>
+          <a href="#vd_2" class="videoMenu"><img src="artista/videos/BTR_2_mini.jpg" alt=""></a>
+          <a href="#vd_3" class="videoMenu"><img src="artista/videos/BTR_3_mini.jpg" alt=""></a>
+          <a href="#vd_4" class="videoMenu"><img src="artista/videos/BTR_4_mini.jpg" alt=""></a>
+          <a href="#vd_5" class="videoMenu"><img src="artista/videos/BTR_5_mini.jpg" alt=""></a>
+          <a href="#vd_6" class="videoMenu"><img src="artista/videos/BTR_6_mini.jpg" alt=""></a>
+          <a href="#vd_7" class="videoMenu"><img src="artista/videos/BTR_7_mini.jpg" alt=""></a>
+          <a href="#vd_8" class="videoMenu"><img src="artista/videos/BTR_8_mini.jpg" alt=""></a>
+          <a href="#vd_9" class="videoMenu"><img src="artista/videos/BTR_9_mini.jpg" alt=""></a>
+          <a href="#vd_10" class="videoMenu"><img src="artista/videos/BTR_10_mini.jpg" alt=""></a>
+          <a href="#vd_11" class="videoMenu"><img src="artista/videos/BTR_11_mini.jpg" alt=""></a>
+          <a href="#vd_12" class="videoMenu"><img src="artista/videos/BTR_12_mini.jpg" alt=""></a>
+        </blockquote>
+      </aside>
+
+      <footer>
+        <div class="izq">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="enlace-footer">Inicio</a></li>
+              <li><a href="biografia.html" class="enlace-footer">Biografia</a></li>
+              <li><a href="discografia.html" class="enlace-footer">Discografia</a></li>
+              <li><a href="Videos.html" class="enlace-footer">Videos</a></li>
+              <li><a href="galeria.html" class="enlace-footer">Galeria</a></li>
+              <li><a href="noticias.html" class="enlace-footer">Noticias</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="der">
+          <nav>
+            <ul>
+              <li><a href="https://www.facebook.com/bigtimerush/" target="_blank" class="botonredes"><img src="imagenes/iconos/face.svg" alt=""></a></li>
+              <li><a href="https://twitter.com/bigtimerush?lang=es" target="_blank" class="botonredes"><img src="imagenes/iconos/tw.svg" alt=""></a></li>
+              <li><a href="https://www.instagram.com/bigtimerush/?hl=es" target="_blank" class="botonredes"><img src="imagenes/iconos/instagram.svg" alt=""></a></li>
+              <li><a href="https://www.pinterest.com.mx/cinthiackrc/big-time-rush/" target="_blank" class="botonredes"><img src="imagenes/iconos/pinterest.svg" alt=""></a></li>
+              <li><a href="https://www.youtube.com/user/BIGtimeRUSH" target="_blank" class="botonredes"><img src="imagenes/iconos/youtube.svg" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+        <p>Todos los derechos reservados<br>
+          Instituto Tecnologico de Tuxtepec</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
